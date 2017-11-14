@@ -4,7 +4,6 @@ The following files are included in this repo:
 - 'README.md' : This file
 - 'CodeBook.md' : A codebook describing the variables and values
 - 'run_analysis.R' : The R script for run_analysis function
-- 
 
 Working directory and data:
 - The 'run_analysis.R' file should be stored and run in a working directory which contains 'features.txt' and 'activity_labels.txt'. The train and test data sets are stored in working_directory/train/ and working_directory/test/ 
@@ -50,4 +49,12 @@ run_analysis function:
     - Select measure, subject_id, activity_type and value from all_data_gathered
     - display all_data_gathered
     
-    
+Codebook:
+- detail on the tidy data can be viewed in CodeBook.md in this repository
+
+Credit:
+- Dataset used in this function is downloaded from the following publication [1] 
+
+  [1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones       using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-   Gasteiz, Spain. Dec 2012
+   This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for    its use or misuse. Any commercial use is prohibited.
+  Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
