@@ -1,10 +1,11 @@
-CodeBook for run_analysis()
+#CodeBook for run_analysis()
 
-subject_id	2
+##subject_id	
+	2
 	Identification number for each subject participating in the study
 		1..30
 		
-activity_type
+##activity_type
 	Type of activities performed by the subjects in the study
 		WALKING
 		WaLKING_UPSTAIRS
@@ -13,7 +14,7 @@ activity_type
 		STANDING
 		LAYING
 
-measure		
+##measure		
 	Variables indicating the mean or standard deviations of the time and frequency domain signals.The features selected for these variables come from the accelerometer and 
 	gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were 
 	filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then 
